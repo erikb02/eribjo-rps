@@ -32,7 +32,7 @@ public class RockPaperScissorsGame {
             if (choice == hand) {
                 System.out.println("It's a draw");
                 System.out.println(" You chose " + choice + " computer chose " + hand);
-            } else if (choice == 0 && hand == 2) {
+            } else if (choice == Fist.ROCK && hand == 2) {
                 System.out.println("You Win");
                 System.out.println(" You chose " + choice + " computer chose " + hand);
             } else if (choice == 1 && hand == 0) {
