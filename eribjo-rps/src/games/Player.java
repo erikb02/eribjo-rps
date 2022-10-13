@@ -3,7 +3,7 @@ package games;
 public class Player {
 
     //@FIXME: class fields should be declared as private so that they cannot be manipulated from outside
-    int score;
+   private int score;
 
     String name;
 

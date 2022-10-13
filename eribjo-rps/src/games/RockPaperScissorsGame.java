@@ -19,7 +19,7 @@ public class RockPaperScissorsGame {
     }
 
     //@TODO: public, private or protected?
-    void playGame() {
+     private void playGame() {
         System.out.println(gamer.getName());
         Scanner scanner = new Scanner(System.in);
         int choice = 0;
@@ -32,13 +32,13 @@ public class RockPaperScissorsGame {
             if (choice == hand) {
                 System.out.println("It's a draw");
                 System.out.println(" You chose " + choice + " computer chose " + hand);
-            } else if (choice == Fist.ROCK && hand == 2) {
+            } else if (choice == Fist.ROCK && hand == Fist.SCISSORS) {
                 System.out.println("You Win");
                 System.out.println(" You chose " + choice + " computer chose " + hand);
-            } else if (choice == 1 && hand == 0) {
+            } else if (choice == Fist.PAPER && hand == Fist.ROCK) {
                 System.out.println("You win");
                 System.out.println(" You chose " + choice + " computer chose " + hand);
-            } else if (choice == 2 && hand == 1) {
+            } else if (choice == Fist.SCISSORS && hand == Fist.PAPER) {
                 System.out.println("You win");
                 System.out.println(" You chose " + choice + " computer chose " + hand);
             } else {
