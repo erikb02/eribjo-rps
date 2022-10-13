@@ -9,6 +9,7 @@ public class Fist {
 
     private Random random;
 
+    //@TODO: if the constructor is not declared as public it will not be able to call it from outside of the package
     Fist() {
         random = new Random();
     }

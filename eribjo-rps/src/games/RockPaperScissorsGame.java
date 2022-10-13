@@ -18,6 +18,7 @@ public class RockPaperScissorsGame {
         game.playGame();
     }
 
+    //@TODO: public, private or protected?
     void playGame() {
         System.out.println(gamer.getName());
         Scanner scanner = new Scanner(System.in);
