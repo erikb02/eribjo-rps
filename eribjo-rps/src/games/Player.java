@@ -5,7 +5,7 @@ public class Player {
     //@FIXME: class fields should be declared as private so that they cannot be manipulated from outside
    private int score;
 
-    String name;
+   private String name;
 
     public Player(String name, int score) {
         this.name = name;
